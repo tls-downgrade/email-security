@@ -5,7 +5,9 @@ Auto-detect in Email Ecosystems](https://dx.doi.org/10.14722/ndss.2025.240532). 
 #### Explanation on files
 To accommodate different syntax, you will see there are three folders with the respective protocols.
 - T1: STARTTLS stripping
-- T2: 
+- T2: Replace incoming ServerHello in TLS negotiation
+- T3: Reject STARTTLS command
+- T4: Disrupt a complete TLS handshake
 
 ##### Setup
 
