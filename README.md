@@ -17,7 +17,7 @@ To accommodate different syntax, you will see there are three folders with the r
 
 ```
 git clone https://github.com/tls-downgrade/email-security.git
-cp -r proxy.py client_hello.py imap/ pop3/ smtp/ ./mitmproxy
+cp -r  imap/ pop3/ smtp/ ./mitmproxy
 cp next_layer.py ./mitmproxy/addons/
 ```
 
